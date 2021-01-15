@@ -1302,7 +1302,7 @@ validatemenu()
 // addunit.attr('src','js/library/tyranids/units/hq/broodlord.js')
 // addunit.appendTo($('body'))
 // Print(broodlord)
-import('builder_40k_8ed/js/library/tyranids/units/hq/broodlord.js')
+import('/builder_40k_8ed/js/library/tyranids/units/hq/broodlord.js')
   .then(module => {
     console.log(broodlord)
   })
