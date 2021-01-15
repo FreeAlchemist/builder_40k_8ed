@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>40K_builder</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/40k_8ed.css">
+	<link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+<div id="menu">
+	<div class="menupart">
+		<input type="button" id="roster-btn"  class="menubtn" value="Roster" title="Generate Army Roster" onclick=detToggle()></input>
+	</div>
+	<div class="menupart">
+		<div>Army select</div>
+		<select name="armyselect" id="armyselect" size="1"></select>
+	</div>
+	<div class="menupart">
+		<div>Point system</div>
+		<select name="pointsystem" id="pointsystem" size="1">
+			<!-- <option value="powerpoints"  label="Power Points"></option> -->
+			<option value="points" selected="selected" label="Matched Points"></option>
+		</select>
+	</div>
+	<div class="menupart">
+		<a href="index.html" class="menubtn">Menu</a>
+	</div>
+</div>
+<div id="detachments">
+	<table cellpadding = "0px" cellspacing = "0px" id="detachment"></table>
+</div>
+<div id="page"></div>
+<!-- <div id="copyright" class="copyright">
+	<p>Web part, translation to russian, <a href="http://www.github.com/freealchemist">FreeAlchemist</a></p>
+	<p>Contents copyright ©, <a href="http://www.games-workshop.com">Games Workshop</a></p>
+</div> -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/general.js"></script>
+<script type="text/javascript" src="js/library_40k_8ed.js"></script>
+<script type="text/javascript" src="js/40k_8ed.js"></script>
+<script type="text/javascript" src="js/console.js"></script>
+</body>
+</html>
