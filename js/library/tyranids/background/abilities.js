@@ -1,0 +1,8 @@
+abilities : {
+	'Synapse' : '<b>HIVE FLEET</b> units automatically pass Morale tests if they are within 12\" of any friendly <b>HIVE FLEET</b> units with this ability.',
+	'Instinctive Behaviour' : 'Unless a <b>HIVE FLEET</b> unit with this ability is with 24\" of any friendly <b>HIVE FLEET SYNAPSE</b> unit, you must substract 1 from any hit rolls made for it when shooting any target other than the nearest visible enemy unit, and you must substract 2 from its charge roll if it declares a charge against any unit other than the nearest enemy unit.',
+	'Shadow in the warp' : 'Enemy <b>PSYKERS</b> must substract 1 from any Psychic tests they make if they are within 18\" of any units with this ability. <b>TYRANID PSYKERS</b> are not affected.',
+	'Float Down' : 'During deployment, you can set up a unit in the upper atmosphere instead of on the battlefield. At the end of any Movement phases, it can float down to the battlefield - set it up anywhere that is more than 12" from any enemy models.',
+	'Living Bombs' : 'Unit automatically pass Morale tests. Furthermore, unit are discounted for the purposes of any victory conditions - their destruction never awards victory points, they do not count towards the number of models controlling an objective, and they do not count when determing if a player has any models left on the battlefield. If you are playing a matched play game, the creation of a new such unit by another unit (e.g. from a Sporocyst\'s Spore Node ability) is free, and this units points cost does not come out of your pool of reinforcement points.',
+	'Hail of Living Ammunition' : 'If this unit contains 20 or more models, you can re-roll wound rolls of 1 when it shoots.',
+}
